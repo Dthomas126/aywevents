@@ -1,0 +1,63 @@
+﻿ $primary: #006666;
+ $secondary:	#b2d8d8;
+ $alternate: rgb(255, 254, 235) ;
+ $montserrat: 'Montserrat', sans-serif;
+$cormorant:  'Cormorant', serif;;
+ ///////////FONTS
+//  font-family:'Montserrat', sans-serif;
+// font-family: 'Cormorant', serif;
+
+
+
+
+ /* 
+  Carousel settings 
+  */
+  .carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  body{
+    background-color: white;
+    font-family: $montserrat;
+  }
+
+
+h1,h2{
+    font-family: $cormorant;
+    font-weight: 550;
+}
+  h2{
+      font-size: 2.5rem;
+
+  }
+  h4{
+      font-size: 1.4rem;
+  }
+
+  .primary-text{
+      color: $primary;
+  }
+  .primary-bg{
+      background-color: $primary;
+  }
+  .secondary-text{
+    color: $secondary;
+}
+.secondary-bg{
+    background-color: $secondary;
+}
+
+.alternate-text{
+    color: $alternate;
+}
+.alternate-bg{
+    background-color: $alternate;
+}

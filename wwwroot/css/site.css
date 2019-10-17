@@ -1,0 +1,58 @@
+/* 
+  Carousel settings 
+  */
+.carousel-caption {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  bottom: initial;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h2 {
+  font-family: "Cormorant", serif;
+  font-weight: 550;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+.primary-text {
+  color: #006666;
+}
+
+.primary-bg {
+  background-color: #006666;
+}
+
+.secondary-text {
+  color: #b2d8d8;
+}
+
+.secondary-bg {
+  background-color: #b2d8d8;
+}
+
+.alternate-text {
+  color: #fffeeb;
+}
+
+.alternate-bg {
+  background-color: #fffeeb;
+}
+/*# sourceMappingURL=site.css.map */
