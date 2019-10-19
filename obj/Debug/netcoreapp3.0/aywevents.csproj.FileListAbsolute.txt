@@ -20,8 +20,11 @@
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/aywevents.TagHelpers.input.cache
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/aywevents.TagHelpers.output.cache
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/aywevents.RazorCoreGenerate.cache
+/home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Home/About.cshtml.g.cs
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs
+/home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Home/Portfolio.cshtml.g.cs
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Home/Privacy.cshtml.g.cs
+/home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Home/Service.cshtml.g.cs
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Shared/Error.cshtml.g.cs
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
@@ -33,5 +36,3 @@
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/aywevents.dll
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/aywevents.pdb
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/aywevents.csproj.CopyComplete
-/home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Home/About.cshtml.g.cs
-/home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Home/Service.cshtml.g.cs

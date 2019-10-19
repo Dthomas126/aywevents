@@ -55,4 +55,12 @@ h4 {
 .alternate-bg {
   background-color: #fffeeb;
 }
+
+section {
+  padding: 30px 30px;
+}
+
+.py-20 {
+  padding: 0 20px;
+}
 /*# sourceMappingURL=site.css.map */
