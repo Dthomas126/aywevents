@@ -36,3 +36,4 @@
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/aywevents.dll
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/aywevents.pdb
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/aywevents.csproj.CopyComplete
+/home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Home/Contact.cshtml.g.cs

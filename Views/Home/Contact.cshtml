@@ -1,0 +1,93 @@
+@{
+ViewData["title"] = "Contact";
+}
+
+
+<section class=" primary-text py-5">
+
+
+  <div class="container py-5">
+    <section class="container w-50 text-center mr-auto ">
+      <h2 class="display-3">Contact us</h2>
+      <hr />
+      <p class="lead">We'd love to hear from you</p>
+    </section>
+
+    <section class="container">
+      <img src="~/images/team/bestfriends.jpg" height="300px" class="img-fluid" alt="">
+    </section>
+
+    <section class="container">
+      <form class="my-auto">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="text" class="form-control" id="phone" placeholder="Phone Number">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" rows="3"></textarea>
+
+        </div>
+        <button type="submit" class="btn primary-bg text-white">Submit</button>
+      </form>
+    </section>
+  </div>
+
+</section>
+
+<section class="secondary-bg py-5">
+
+  <div class="container">
+
+    <div class="row text-center">
+      <div class="col-lg-4 mb-3">
+        <div class="card" style="height: 225px">
+          <div class="card-body">
+            <h4 class="text-center py-4">
+              <i class="primary-text fas fa-map-marker-alt"></i>
+            </h4>
+            <h4 class="card-title">Location</h4>
+
+            <p class="card-text text-muted">San Antonio, TX</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-3">
+        <div class="card" style="height: 225px">
+          <div class="card-body">
+            <h4 class="text-center py-4"><i class="primary-text fas fa-address-book"></i></h4>
+
+            <h4 class="card-title">Phone & Email</h4>
+
+            <p class="card-text text-muted">(210) 984-7194</p>
+            <p class="card-text text-muted">Info.aywevents@gmail.com</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body" style="height: 225px">
+              <h4 class="text-center py-4"><i class="primary-text far fa-clock"></i></h4>
+
+            <h4 class="card-title">Operation</h4>
+
+            <p class="card-text text-muted">Per Request</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
