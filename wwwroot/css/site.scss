@@ -67,3 +67,23 @@ section{
 .py-20{
 padding: 0 20px;
 }
+
+.portfolio-img:Hover{
+opacity: .2;
+z-index: 0;
+}
+
+.portfolio-img{ 
+  position: relative;
+  z-index: 3;
+  transition: .4s;
+}
+.portfolio-img-text{
+position: absolute;
+ left: 50%;
+top: 50%;
+font-size: 1.8rem;
+font-weight: bold;
+transform: translate(-50%,-50%);
+z-index: 2;
+}
