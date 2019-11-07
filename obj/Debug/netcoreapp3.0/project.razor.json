@@ -14374,6 +14374,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views/Home/PortfolioDetails.cshtml",
+      "TargetPath": "Views/Home/PortfolioDetails.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/_ViewImports.cshtml",
       "TargetPath": "Views/_ViewImports.cshtml",
       "FileKind": "mvc"
