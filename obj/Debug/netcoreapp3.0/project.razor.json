@@ -14364,6 +14364,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views/EventRequest/Delete.cshtml",
+      "TargetPath": "Views/EventRequest/Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/Home/Service.cshtml",
       "TargetPath": "Views/Home/Service.cshtml",
       "FileKind": "mvc"
@@ -14379,8 +14384,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views/EventRequest/Details.cshtml",
+      "TargetPath": "Views/EventRequest/Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/_ViewImports.cshtml",
       "TargetPath": "Views/_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/EventRequest/Edit.cshtml",
+      "TargetPath": "Views/EventRequest/Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14394,8 +14409,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views/EventRequest/Create.cshtml",
+      "TargetPath": "Views/EventRequest/Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/Shared/Error.cshtml",
       "TargetPath": "Views/Shared/Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/EventRequest/Index.cshtml",
+      "TargetPath": "Views/EventRequest/Index.cshtml",
       "FileKind": "mvc"
     },
     {
