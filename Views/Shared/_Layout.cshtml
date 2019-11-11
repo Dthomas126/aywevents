@@ -5,10 +5,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - AYWEvents</title>
-    <!-- <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" /> -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
 
-    <link rel="stylesheet"
+    <!-- <link rel="stylesheet"
         href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
         integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
 
@@ -21,7 +21,7 @@
     <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
         integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
         crossorigin="anonymous"></script>
-    <script>$(document).ready(function () { $('body').bootstrapMaterialDesign(); });</script>
+    <script>$(document).ready(function () { $('body').bootstrapMaterialDesign(); });</script> -->
     <script src="https://kit.fontawesome.com/742274a2a2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="~/css/site.css">
     <link href="https://fonts.googleapis.com/css?family=Cormorant|Montserrat&display=swap" rel="stylesheet">
@@ -57,8 +57,8 @@
                                     asp-action="Portfolio">Portfolio</a>
                             </li>
                         <li class="nav-item">
-                            <a class="nav-link primary-bg text-white" style="border-radius: 8px" asp-area="" asp-controller="Home"
-                                asp-action="Contact">Contact</a>
+                            <a class="nav-link primary-bg text-white" style="border-radius: 8px" asp-area="" asp-controller="EventRequest"
+                                asp-action="Index">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -71,23 +71,23 @@
         </main>
     </div>
 
-    <footer class="border-top alternate-text primary-bg py-4  footer ">
+    <footer class="border-top secondary-text primary-bg py-4  footer ">
         <div class="py-4">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <h3>About us</h3>
+                    <h3><b>About us</b></h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the industry's standard dummy text ever since the 1500s. </p>
                 </div>
                 <div class="col-lg-4">
-                    <h3>Contact</h3>
+                    <h3><b>Contact</b></h3>
                     <p>Richard Rorque</p>
                     <p>(993) 888-8888</p>
                     <p>AWYEvents@gmail.com</p>
                 </div>
                 <div class="col-lg-4">
-                    <h3>Follow us on social</h3>
+                    <h3><b>Follow us on social</b></h3>
                     <div class="row">
                         <div class="col-lg-2">
                          <a href="https://www.facebook.com/aywevents.tx/" class="secondary-text"><i class="fab fa-facebook display-4"></i> </a> 
@@ -105,10 +105,10 @@
             &copy; 2019 - aywevents - <a class="secondary-text" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
-    <!-- <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script> 
-    @RenderSection("Scripts", required: false) -->
+    @RenderSection("Scripts", required: false)
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
             AOS.init();
