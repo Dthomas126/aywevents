@@ -14344,6 +14344,11 @@
   "RootNamespace": "aywevents",
   "Documents": [
     {
+      "FilePath": "Views/Portfolio/Details.cshtml",
+      "TargetPath": "Views/Portfolio/Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views/Shared/_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -14369,6 +14374,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views/Portfolio/Index.cshtml",
+      "TargetPath": "Views/Portfolio/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/Home/Service.cshtml",
       "TargetPath": "Views/Home/Service.cshtml",
       "FileKind": "mvc"
@@ -14381,11 +14391,6 @@
     {
       "FilePath": "Views/Home/Contact.cshtml",
       "TargetPath": "Views/Home/Contact.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views/Home/PortfolioDetails.cshtml",
-      "TargetPath": "Views/Home/PortfolioDetails.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14411,11 +14416,6 @@
     {
       "FilePath": "Views/Home/About.cshtml",
       "TargetPath": "Views/Home/About.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views/Home/Portfolio.cshtml",
-      "TargetPath": "Views/Home/Portfolio.cshtml",
       "FileKind": "mvc"
     },
     {
