@@ -1,6 +1,10 @@
-﻿ $primary: #006666;
- $secondary:	#b2d8d8;
+﻿//  $secondary: #006666;
+//  $primary:	#b2d8d8;
+
+$secondary: #595959;
+$primary:	#198c8c;
  $alternate: #464949 ;
+ $white-bg:rgb(247, 247, 247);
  $montserrat: 'Montserrat', sans-serif;
 $cormorant:  'Cormorant', serif;;
  ///////////FONTS
@@ -65,7 +69,7 @@ section{
   padding: 30px 30px;
 }
 .py-20{
-padding: 0 20px;
+padding: 20%;
 }
 
 .portfolio-img:Hover{
@@ -87,3 +91,14 @@ font-weight: bold;
 transform: translate(-50%,-50%);
 z-index: 2;
 }
+.navbar-nav {
+  justify-content: flex-end;
+}
+
+.white-bg{
+  background-color: $white-bg;
+}
+.white-text{
+  color: $white-bg;
+}
+

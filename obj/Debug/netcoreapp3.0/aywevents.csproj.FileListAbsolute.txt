@@ -22,7 +22,6 @@
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/aywevents.RazorCoreGenerate.cache
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Home/About.cshtml.g.cs
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs
-/home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Home/Portfolio.cshtml.g.cs
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Home/Privacy.cshtml.g.cs
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Home/Service.cshtml.g.cs
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Shared/Error.cshtml.g.cs
@@ -37,7 +36,6 @@
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/aywevents.pdb
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/aywevents.csproj.CopyComplete
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Home/Contact.cshtml.g.cs
-/home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Home/PortfolioDetails.cshtml.g.cs
 /home/devinthomas/Desktop/aywevents/bin/Debug/netcoreapp3.0/Microsoft.AspNetCore.Razor.Language.dll
 /home/devinthomas/Desktop/aywevents/bin/Debug/netcoreapp3.0/Microsoft.CodeAnalysis.dll
 /home/devinthomas/Desktop/aywevents/bin/Debug/netcoreapp3.0/Microsoft.CodeAnalysis.CSharp.dll
@@ -154,3 +152,10 @@
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/EventRequest/Details.cshtml.g.cs
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/EventRequest/Edit.cshtml.g.cs
 /home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/EventRequest/Index.cshtml.g.cs
+/home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Service/Create.cshtml.g.cs
+/home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Service/Delete.cshtml.g.cs
+/home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Service/Details.cshtml.g.cs
+/home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Service/Edit.cshtml.g.cs
+/home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Service/Index.cshtml.g.cs
+/home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Portfolio/Details.cshtml.g.cs
+/home/devinthomas/Desktop/aywevents/obj/Debug/netcoreapp3.0/Razor/Views/Portfolio/Index.cshtml.g.cs

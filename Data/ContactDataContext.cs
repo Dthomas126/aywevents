@@ -10,6 +10,7 @@ namespace aywevents.Data
         }
 
         public DbSet<EventRequest> EventRequest { get; set; }
+        public DbSet<Service> Service { get; set; }
 
     }
 }

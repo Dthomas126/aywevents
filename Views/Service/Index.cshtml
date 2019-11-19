@@ -1,0 +1,85 @@
+@model IEnumerable<aywevents.Models.Service>
+
+  @{
+  ViewData["Title"] = "Index";
+  }
+<section class="container pt-5">
+
+  <div class="pt-5">
+  <h1>Index</h1>
+
+  <p>
+    <a asp-action="Create">Create New Service</a>
+  </p>
+  <div id="accordion">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          @foreach (var item in Model)
+          {
+          <a class="nav-link " id="@item.Name" data-toggle="pill" href="#@item.ID" role="tab"
+            aria-controls="v-pills-home" aria-selected="true">@item.Name</a>
+          }
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="tab-content" id="v-pills-tabContent">
+          @foreach (var item in Model)
+          {
+          <div class="tab-pane fade show " id="@item.ID" role="tabpanel" aria-labelledby="@item.Name">
+            @item.Details
+          </div>
+
+          }
+        </div>
+      </div>
+    </div>
+    </div>
+
+    
+  </section>
+
+  <section class=" primary-bg m-0">
+      <div class="container pt-5">
+        
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="card p-4">
+          <div class="card-body text-center">
+            <h1 class="card-title" > <i class="fas fa-glass-cheers" style="font-size: 60px"></i> </h1>
+            <h4 class="card-text">Weddings</h4>
+            <button class="btn btn-primary">Learn more</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+          <div class="card p-4">
+              <div class="card-body text-center">
+                <h1 class="card-title" > <i class="fab fa-accusoft" style="font-size: 60px"></i> </h1>
+                <h4 class="card-text">Private</h4>
+                <button class="btn btn-primary">Learn more</button>
+              </div>
+            </div>
+      </div>
+      <div class="col-lg-3">
+          <div class="card p-4">
+              <div class="card-body text-center">
+                <h1 class="card-title" > <i class="fas fa-birthday-cake" style="font-size: 60px"></i> </h1>
+                <h4 class="card-text">Birthday's</h4>
+                <button class="btn btn-primary">Learn more</button>
+              </div>
+            </div>
+      </div>
+      <div class="col-lg-3">
+          <div class="card p-4">
+              <div class="card-body text-center">
+                <h1 class="card-title" > <i class="fas fa-gift" style="font-size: 60px"></i> </h1>
+                <h4 class="card-text">Commercial</h4>
+                <button class="btn btn-primary">Learn more</button>
+              </div>
+            </div>
+      </div>
+    </div>
+    
+    </div>
+    </section>

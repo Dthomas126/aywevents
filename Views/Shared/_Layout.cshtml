@@ -5,10 +5,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - AYWEvents</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <!-- <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />-->
+    <link rel="stylesheet" href="~/css/site.css" /> 
 
-    <!-- <link rel="stylesheet"
+    <link rel="stylesheet"
         href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
         integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
 
@@ -21,7 +21,7 @@
     <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
         integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
         crossorigin="anonymous"></script>
-    <script>$(document).ready(function () { $('body').bootstrapMaterialDesign(); });</script> -->
+    <script>$(document).ready(function () { $('body').bootstrapMaterialDesign(); });</script>
     <script src="https://kit.fontawesome.com/742274a2a2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="~/css/site.css">
     <link href="https://fonts.googleapis.com/css?family=Cormorant|Montserrat&display=swap" rel="stylesheet">
@@ -30,16 +30,18 @@
 
 </head>
 
-<body>
+<body >
     <header>
-        <nav class="navbar fixed-top navbar-expand-sm shadow navbar-toggleable-sm navbar-light bg-white " style="z-index:10">
+        <nav class="navbar fixed-top navbar-expand-lg shadow navbar-toggleable-sm navbar-light white-bg justify-content-end p-0" style="z-index:10">
             <div class="container">
-                <a class="navbar-brand primary-text" asp-area="" asp-controller="Home" asp-action="Index">AYWEvents</a>
+                <a class="navbar-brand primary-text" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/ayw-logo.jpg"  width="150" height="85px" class="d-inline-block align-top"/>
+                </a> 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse justify-content-end collapse d-sm-inline-flex flex-sm-row-reverse">
+                <div class="navbar-collapse justify-content-end collapse d-lg-inline-flex flex-lg-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
@@ -49,12 +51,12 @@
                                 asp-action="About">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home"
-                                asp-action="Service">Services</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Service"
+                                asp-action="Index">Services</a>
                         </li>
                         <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home"
-                                    asp-action="Portfolio">Portfolio</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Portfolio"
+                                    asp-action="Index">Portfolio</a>
                             </li>
                         <li class="nav-item">
                             <a class="nav-link primary-bg text-white" style="border-radius: 8px" asp-area="" asp-controller="EventRequest"
@@ -65,13 +67,13 @@
             </div>
         </nav>
     </header>
-    <div class="container-fluid m-0 p-0 ">
-        <main role="main" class="">
+    <div class="container-fluid m-0 p-0" >
+        <main role="main" class="" > 
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top secondary-text primary-bg py-4  footer ">
+    <footer class="border-top white-text secondary-bg py-4 m-0 footer ">
         <div class="py-4">
         <div class="container">
             <div class="row">
@@ -105,9 +107,9 @@
             &copy; 2019 - aywevents - <a class="secondary-text" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <!-- <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script> 
+    <script src="~/js/site.js" asp-append-version="true"></script>  -->
     @RenderSection("Scripts", required: false)
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

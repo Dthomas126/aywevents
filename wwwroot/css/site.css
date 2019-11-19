@@ -33,19 +33,19 @@ h4 {
 }
 
 .primary-text {
-  color: #006666;
+  color: #198c8c;
 }
 
 .primary-bg {
-  background-color: #006666;
+  background-color: #198c8c;
 }
 
 .secondary-text {
-  color: #b2d8d8;
+  color: #595959;
 }
 
 .secondary-bg {
-  background-color: #b2d8d8;
+  background-color: #595959;
 }
 
 .alternate-text {
@@ -61,7 +61,7 @@ section {
 }
 
 .py-20 {
-  padding: 0 20px;
+  padding: 20%;
 }
 
 .portfolio-img:Hover {
@@ -85,5 +85,19 @@ section {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 2;
+}
+
+.navbar-nav {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.white-bg {
+  background-color: #f7f7f7;
+}
+
+.white-text {
+  color: #f7f7f7;
 }
 /*# sourceMappingURL=site.css.map */
